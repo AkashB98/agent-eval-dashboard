@@ -1,0 +1,103 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "detail": "[0.9286, 0.9643, 1.0]",
+      "name": "redteam_headlines",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "redteam_statuses",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "redteam_failures_evidence",
+      "pass": true
+    },
+    {
+      "detail": "0.9666666666666667",
+      "name": "replay_headline_r1",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "replay_drift_evidence",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "anomaly_critical_warns",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "validator_pass_rates",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "validator_critical",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "firewall_all_green",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "firewall_blocked_is_info",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "synth_quality",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "manifest_rows",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "ingest_idempotent",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "fleet_critical",
+      "pass": true
+    },
+    {
+      "detail": "{'adversarial-prompt-synthesizer': 'declining', 'ai-red-teaming-harness': 'improving', 'prompt-injection-firewall': 'steady', 'structured-output-validator': 'declining', 'tool-call-trace-replay': 'steady', 'trace-anomaly-detector': 'steady'}",
+      "name": "fleet_trends",
+      "pass": true
+    },
+    {
+      "detail": "5",
+      "name": "fleet_alerts",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "dashboard_renders",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "dashboard_deterministic",
+      "pass": true
+    }
+  ],
+  "determinism": {
+    "md5": "5997fcfd1e832305e5ce940f463d59ae",
+    "note": "byte-identical eval_report.json across 3 runs",
+    "runs_required": 3
+  },
+  "evals": "agent-eval-dashboard",
+  "n_checks": 18,
+  "n_passed": 18
+}
